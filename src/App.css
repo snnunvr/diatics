@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
 body{
-  background-color: gray;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
+  font-family: 'Roboto', sans-serif;  
+   min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .container{
@@ -51,4 +55,41 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+form input{
+  margin-bottom:10px;
+  padding:10px 10px;
+  outline:none;
+  border-radius:5px;
+  border:1px solid #dedede;
+}
+
+form input:focus{
+  border:1px solid #61dafb;
+}
+
+table{
+  width:100%;
+  margin-top:20px;
+}
+table td {
+  padding:5px 0;
+  border:0.5px solid #dedede;
+}
+
+.btn-trash{
+  background-color: white;
+  border:none;
+  color:tomato;
+  width:50px;
+  height:25px;
+  border-radius: 4px;
 }
