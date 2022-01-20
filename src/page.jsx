@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export function Page() {
-  const [name, setName] = useState("Malik");
+  const [name, setName] = useState("sinan");
 
   useEffect(() => {
     console.log("sayfa yüklendi");

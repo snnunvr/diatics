@@ -81,7 +81,6 @@ function App() {
               <th>Adı</th>
               <th>Soyadı</th>
               <th>Email</th>
-              <th>SİL</th>
             </tr>
           </thead>
           <tbody>
@@ -92,10 +91,10 @@ function App() {
                 <td>{person.email}</td>
                 <td>
                   <button
-                    className="btn-trash"
+                    className="Sil"
                     onClick={() => DeleteUser(person.email)}
                   >
-                    <i className="far fa-trash-alt"></i>
+                   <button type="button" id="myBtn" onclick="myFunction()">SİL</button>
                   </button>
                 </td>
               </tr>
